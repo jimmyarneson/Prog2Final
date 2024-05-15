@@ -36,6 +36,9 @@ namespace Prog2Final
 
         private void button2_Click(object sender, EventArgs e)
         {
+
+            Form6 frm6 = new Form6();
+            Form5 frm5 = new Form5();
             Form4 frm4 = new Form4();
             Form3 frm3 = new Form3();
 
@@ -46,6 +49,16 @@ namespace Prog2Final
             else if (radioButton2.Checked && radioButton4.Checked)
             {
                 frm4.Show();
+                this.Hide();
+            }
+            else if (radioButton1.Checked && radioButton3.Checked)
+            {
+                frm5.Show();
+                this.Hide();
+            }
+            else if (radioButton2.Checked && radioButton3.Checked)
+            {
+                frm6.Show();
                 this.Hide();
             }
         }
