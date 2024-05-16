@@ -75,7 +75,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(360, 43);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Biceps and Triceps Gym Work Out";
+            this.label1.Text = "Back Gym Workout";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form4
