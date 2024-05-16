@@ -1,6 +1,6 @@
 ﻿namespace Prog2Final
 {
-    partial class Form5
+    partial class Form7
     {
         /// <summary>
         /// Required designer variable.
@@ -42,7 +42,7 @@
             this.listBox1.Location = new System.Drawing.Point(12, 56);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(360, 334);
-            this.listBox1.TabIndex = 11;
+            this.listBox1.TabIndex = 15;
             // 
             // button2
             // 
@@ -51,7 +51,7 @@
             this.button2.Location = new System.Drawing.Point(173, 410);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(199, 40);
-            this.button2.TabIndex = 10;
+            this.button2.TabIndex = 14;
             this.button2.Text = "Generate Workout";
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -62,10 +62,9 @@
             this.button1.Location = new System.Drawing.Point(12, 408);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(155, 40);
-            this.button1.TabIndex = 9;
+            this.button1.TabIndex = 13;
             this.button1.Text = "BACK";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -74,11 +73,11 @@
             this.label1.Location = new System.Drawing.Point(12, 10);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(360, 43);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Back At Home Workout";
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Back At The Gym Workout";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form5
+            // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -88,8 +87,8 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Name = "Form5";
-            this.Text = "Form5";
+            this.Name = "Form7";
+            this.Text = "Form7";
             this.ResumeLayout(false);
 
         }
