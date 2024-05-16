@@ -18,3 +18,13 @@ C:\Users\arneson.j1\Desktop\Prog2Final\Prog2Final\obj\Debug\net6.0-windows\Prog2
 C:\Users\arneson.j1\Desktop\Prog2Final\Prog2Final\obj\Debug\net6.0-windows\Prog2Final.genruntimeconfig.cache
 C:\Users\arneson.j1\Desktop\Prog2Final\Prog2Final\obj\Debug\net6.0-windows\Prog2Final.Form3.resources
 C:\Users\arneson.j1\Desktop\Prog2Final\Prog2Final\obj\Debug\net6.0-windows\Prog2Final.Form4.resources
+C:\Users\arneson.j1\Desktop\Prog2Final\Prog2Final\obj\Debug\net6.0-windows\Prog2Final.Form5.resources
+C:\Users\arneson.j1\Desktop\Prog2Final\Prog2Final\obj\Debug\net6.0-windows\Prog2Final.Form6.resources
+C:\Users\arneson.j1\Desktop\Prog2Final\Prog2Final\obj\Debug\net6.0-windows\Prog2Final.Form7.resources
+C:\Users\arneson.j1\Desktop\Prog2Final\Prog2Final\obj\Debug\net6.0-windows\Prog2Final.Form8.resources
+C:\Users\arneson.j1\Desktop\Prog2Final\Prog2Final\obj\Debug\net6.0-windows\Prog2Final.Form10.resources
+C:\Users\arneson.j1\Desktop\Prog2Final\Prog2Final\obj\Debug\net6.0-windows\Prog2Final.Form11.resources
+C:\Users\arneson.j1\Desktop\Prog2Final\Prog2Final\obj\Debug\net6.0-windows\Prog2Final.Form12.resources
+C:\Users\arneson.j1\Desktop\Prog2Final\Prog2Final\obj\Debug\net6.0-windows\Prog2Final.Form13.resources
+C:\Users\arneson.j1\Desktop\Prog2Final\Prog2Final\obj\Debug\net6.0-windows\Prog2Final.Form14.resources
+C:\Users\arneson.j1\Desktop\Prog2Final\Prog2Final\obj\Debug\net6.0-windows\Prog2Final.Form9.resources
