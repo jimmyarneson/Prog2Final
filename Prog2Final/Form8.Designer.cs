@@ -65,6 +65,7 @@
             this.button1.TabIndex = 13;
             this.button1.Text = "BACK";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -74,7 +75,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(360, 43);
             this.label1.TabIndex = 12;
-            this.label1.Text = "Back At The Gym Workout";
+            this.label1.Text = "Chest At The Gym Workout";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form8

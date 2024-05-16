@@ -1,6 +1,6 @@
 ﻿namespace Prog2Final
 {
-    partial class Form7
+    partial class Form9
     {
         /// <summary>
         /// Required designer variable.
@@ -75,10 +75,10 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(360, 43);
             this.label1.TabIndex = 12;
-            this.label1.Text = "Chest At Home Workout";
+            this.label1.Text = "Abs At Home Workout";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form7
+            // Form9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -88,8 +88,8 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Name = "Form7";
-            this.Text = "Form7";
+            this.Name = "Form9";
+            this.Text = "Form9";
             this.ResumeLayout(false);
 
         }

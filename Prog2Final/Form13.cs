@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace Prog2Final
 {
-    public partial class Form7 : Form
+    public partial class Form13 : Form
     {
-        public Form7()
+        public Form13()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 frm = new Form2();
+            Form2 frm2 = new Form2();
 
-            frm.Show();
-            this.Close();
+            frm2.Show();
+            this.Hide();
         }
     }
 }
