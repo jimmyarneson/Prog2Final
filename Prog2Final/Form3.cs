@@ -32,7 +32,17 @@ namespace Prog2Final
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Random rnd = new Random();
 
+            List<string> list = new List<string> {"Over Head Tricep Extensions 4 x 8",
+                "Bicep Curls 4 x 8", "Tricep Kick Backs 4 x 8", "Push Ups 4 x 10",
+                "Body Weight Dips 4 x 12", "Side Planks 3 x 30 seconds", "Barbell Curls 4 x 8"};
+
+            int random = rnd.Next(1,5);
+
+            listBox1.Text = ((String)list[random]);
+
+            
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
