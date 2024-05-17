@@ -24,5 +24,10 @@ namespace Prog2Final
             frm.Show();
             this.Hide();
         }
+
+        private void Form6_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

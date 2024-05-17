@@ -39,5 +39,10 @@ namespace Prog2Final
         {
 
         }
+
+        private void Form3_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
