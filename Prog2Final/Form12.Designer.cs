@@ -90,6 +90,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form12";
             this.Text = "Form12";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form12_FormClosed);
             this.ResumeLayout(false);
 
         }
