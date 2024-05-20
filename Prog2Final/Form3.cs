@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -30,19 +31,24 @@ namespace Prog2Final
 
         }
 
+
+        List<string> list = new List<string> {"Over Head Tricep Extensions 4 x 8",
+                "Bicep Curls 4 x 8", "Tricep Kick Backs 4 x 8", "Push Ups 4 x 10",
+                "Body Weight Dips 4 x 12", "Side Planks 3 x 30 seconds", "Barbell Curls 4 x 8"};
         private void button2_Click(object sender, EventArgs e)
         {
             Random rnd = new Random();
 
-            List<string> list = new List<string> {"Over Head Tricep Extensions 4 x 8",
-                "Bicep Curls 4 x 8", "Tricep Kick Backs 4 x 8", "Push Ups 4 x 10",
-                "Body Weight Dips 4 x 12", "Side Planks 3 x 30 seconds", "Barbell Curls 4 x 8"};
+         
 
-            int random = rnd.Next(1,5);
+            int r = rnd.Next(list.Count);
 
-            listBox1.Text = ((String)list[random]);
+            listBox1.Items.Add(list[r]);
 
-            
+            Debug.WriteLine(list.Count);
+            list.RemoveAt(r);
+            Debug.WriteLine(list.Count);
+
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
