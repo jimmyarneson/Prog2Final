@@ -8,26 +8,27 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\arneson.j1\\.nuget\\packages\\": {}
+    "C:\\Users\\hotchkiss.o\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arneson.j1\\Desktop\\Prog2Final\\Prog2Final\\Prog2Final.csproj",
+      "projectUniqueName": "C:\\Users\\hotchkiss.o\\Desktop\\Prog2Final\\Prog2Final\\Prog2Final.csproj",
       "projectName": "Prog2Final",
-      "projectPath": "C:\\Users\\arneson.j1\\Desktop\\Prog2Final\\Prog2Final\\Prog2Final.csproj",
-      "packagesPath": "C:\\Users\\arneson.j1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arneson.j1\\Desktop\\Prog2Final\\Prog2Final\\obj\\",
+      "projectPath": "C:\\Users\\hotchkiss.o\\Desktop\\Prog2Final\\Prog2Final\\Prog2Final.csproj",
+      "packagesPath": "C:\\Users\\hotchkiss.o\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hotchkiss.o\\Desktop\\Prog2Final\\Prog2Final\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\arneson.j1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hotchkiss.o\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
