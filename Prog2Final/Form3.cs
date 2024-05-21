@@ -34,20 +34,24 @@ namespace Prog2Final
 
         List<string> list = new List<string> {"Over Head Tricep Extensions 4 x 8",
                 "Bicep Curls 4 x 8", "Tricep Kick Backs 4 x 8", "Push Ups 4 x 10",
-                "Body Weight Dips 4 x 12", "Side Planks 3 x 30 seconds", "Barbell Curls 4 x 8"};
+                "Body Weight Dips 4 x 12", "Side Planks 3 x 30 seconds", "Barbell Curls 4 x 8",
+                "Pull ups 3 x 10", "Over Head Press 4 x 8", "Isometric Bicep Hold 3 x 30 Seconds",
+                "Dumbell Punch 3 x 10"};
         private void button2_Click(object sender, EventArgs e)
         {
             Random rnd = new Random();
 
-         
 
-            int r = rnd.Next(list.Count);
+            for (int lcv = 0 ; lcv < 5; lcv++)
+            {
+                int r = rnd.Next(list.Count);
 
-            listBox1.Items.Add(list[r]);
+                listBox1.Items.Add(list[r]);
 
-            Debug.WriteLine(list.Count);
-            list.RemoveAt(r);
-            Debug.WriteLine(list.Count);
+                Debug.WriteLine(list.Count);
+                list.RemoveAt(r);
+                Debug.WriteLine(list.Count);
+            }
 
         }
 
