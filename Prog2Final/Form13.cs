@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -37,9 +38,15 @@ namespace Prog2Final
         {
             Random rnd = new Random();
 
-            for (int lcv = 0; lcv < 5; lcv++) ;
-            int r = rnd.Next(list.Count);
-            listBox1.Items.Add(list[r]);
+            for (int lcv = 0; lcv < 5; lcv++)
+            {
+                int r = rnd.Next(list.Count);
+                listBox1.Items.Add(list[r]);
+                Debug.WriteLine(list.Count);
+                list.RemoveAt(r);
+                Debug.WriteLine(list.Count);
+            }
+            
            
         }
     }
