@@ -47,7 +47,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.groupBox1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -80,7 +80,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.groupBox2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.groupBox2.Controls.Add(this.radioButton8);
             this.groupBox2.Controls.Add(this.radioButton7);
             this.groupBox2.Controls.Add(this.radioButton6);
@@ -158,7 +158,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(12, 419);
             this.button1.Name = "button1";
@@ -170,7 +170,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.Location = new System.Drawing.Point(219, 419);
             this.button2.Name = "button2";
